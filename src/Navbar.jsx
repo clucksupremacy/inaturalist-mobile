@@ -22,7 +22,7 @@ function Navbar() {
                 </div>
             </div>
             <div className={ isOpen ? "navlinks open" : "navlinks" }>
-                <ul>
+                <ul className="navlist">
                     <li className="mainnav" onClick={toggleMenu}>mainnav</li>
                     <li className="usernav" onClick={toggleMenu}>usernav</li>
                 </ul>
