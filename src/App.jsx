@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Hero from './Hero'
+import TaxonHeader from './TaxonHeader'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <main>
+        <TaxonHeader />
         <Hero />
       </main>
     </>

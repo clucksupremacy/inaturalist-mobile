@@ -20,12 +20,6 @@ function SpeciesInfo() {
     
       {/* Content */}
       <div style={{ padding: '16px' }}>
-        <h1 style={{ fontSize: '24px', fontWeight: 'bold' }}>
-          {taxon.preferred_common_name}
-        </h1>
-        <h2 style={{ fontStyle: 'italic', fontWeight: 'normal', fontSize: '15px', marginTop: '4px', color: '#666' }}>
-          {taxon.name}
-        </h2>
         <img 
           src={taxon.default_photo?.medium_url} 
           alt={taxon.preferred_common_name}
