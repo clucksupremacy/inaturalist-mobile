@@ -21,20 +21,22 @@ function Navbar() {
                     </button>
                 </div>
             </div>
-            <div className='donatenav'>
-                <button className='btn-donate'>
-                    <i className='fa fa-heart' />
-                    {/* <span>Donate</span> */}
-                </button>
-            </div>
-            <div className={ isOpen ? "navlinks open" : "navlinks" }>
-                <ul className="navlist">
-                    <li className="mainnav" onClick={toggleMenu}>mainnav</li>
-                    <li className="usernav" onClick={toggleMenu}>usernav</li>
-                </ul>
-            </div>
-            <div className="hamburger" onClick={toggleMenu}>
-                <i className="fa-solid fa-bars" style={{ color: 'rgb(0, 0, 0)' }} />
+            <div className='navsection2'>
+                <div className='donatenav'>
+                    <button className='btn-donate'>
+                        <i className='fa fa-heart' />
+                        {/* <span>Donate</span> */}
+                    </button>
+                </div>
+                <div className={ isOpen ? "navlinks open" : "navlinks" }>
+                    <ul className="navlist">
+                        <li className="mainnav" onClick={toggleMenu}>mainnav</li>
+                        <li className="usernav" onClick={toggleMenu}>usernav</li>
+                    </ul>
+                </div>
+                <div className="hamburger" onClick={toggleMenu}>
+                    <i className="fa-solid fa-bars" style={{ color: 'rgb(0, 0, 0)' }} />
+                </div>
             </div>
         </nav>
         </>
