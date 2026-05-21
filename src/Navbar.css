@@ -83,6 +83,10 @@
     margin: 3px 0;
 }
 
+.navsection2 {
+    display: flex;
+}
+
 /* -webkit-text-size-adjust: 100%;
 font-family: CloSans,CloSans override,Noto Sans,Noto Sans Hebrew,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 color: #2e261f;
