@@ -14,7 +14,7 @@ function Navbar() {
         <nav className= "navbar">
             <div className='navsection1'>
                 <div className="logonav">
-                    <img src="src/assets/logo.svg" style={{ width: '121px', height: '22px' }} />
+                    <img src={logo} style={{ width: '121px', height: '22px' }} />
                 </div>
                 <div className="searchnav">
                     <button className="btn-search">
